@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Morado Solution</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              border: "hsl(var(--border))",
+              input: "hsl(var(--input))",
+              ring: "hsl(var(--ring))",
+              background: "hsl(var(--background))",
+              foreground: "hsl(var(--foreground))",
+              primary: {
+                DEFAULT: "hsl(var(--primary))",
+                foreground: "hsl(var(--primary-foreground))",
+              },
+              secondary: {
+                DEFAULT: "hsl(var(--secondary))",
+                foreground: "hsl(var(--secondary-foreground))",
+              },
+              destructive: {
+                DEFAULT: "hsl(var(--destructive))",
+                foreground: "hsl(var(--destructive-foreground))",
+              },
+              muted: {
+                DEFAULT: "hsl(var(--muted))",
+                foreground: "hsl(var(--muted-foreground))",
+              },
+              accent: {
+                DEFAULT: "hsl(var(--accent))",
+                foreground: "hsl(var(--accent-foreground))",
+              },
+              popover: {
+                DEFAULT: "hsl(var(--popover))",
+                foreground: "hsl(var(--popover-foreground))",
+              },
+              card: {
+                DEFAULT: "hsl(var(--card))",
+                foreground: "hsl(var(--card-foreground))",
+              },
+            },
+            borderRadius: {
+              lg: "var(--radius)",
+              md: "calc(var(--radius) - 2px)",
+              sm: "calc(var(--radius) - 4px)",
+            },
+            maskImage: {
+              'radial-gradient': 'radial-gradient(var(--tw-gradient-stops))',
+            },
+          },
+        },
+      }
+    </script>
+    <style>
+      :root {
+        --background: 0 0% 100%;
+        --foreground: 240 10% 3.9%;
+        --card: 0 0% 100%;
+        --card-foreground: 240 10% 3.9%;
+        --popover: 0 0% 100%;
+        --popover-foreground: 240 10% 3.9%;
+        --primary: 240 5.9% 10%;
+        --primary-foreground: 0 0% 98%;
+        --secondary: 240 4.8% 95.9%;
+        --secondary-foreground: 240 5.9% 10%;
+        --muted: 240 4.8% 95.9%;
+        --muted-foreground: 240 3.8% 46.1%;
+        --accent: 240 4.8% 95.9%;
+        --accent-foreground: 240 5.9% 10%;
+        --destructive: 0 84.2% 60.2%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 240 5.9% 90%;
+        --input: 240 5.9% 90%;
+        --ring: 240 10% 3.9%;
+        --radius: 0.5rem;
+      }
+
+      .dark {
+        --background: 240 10% 3.9%;
+        --foreground: 0 0% 98%;
+        --card: 240 10% 3.9%;
+        --card-foreground: 0 0% 98%;
+        --popover: 240 10% 3.9%;
+        --popover-foreground: 0 0% 98%;
+        --primary: 0 0% 98%;
+        --primary-foreground: 240 5.9% 10%;
+        --secondary: 240 3.7% 15.9%;
+        --secondary-foreground: 0 0% 98%;
+        --muted: 240 3.7% 15.9%;
+        --muted-foreground: 240 5% 64.9%;
+        --accent: 240 3.7% 15.9%;
+        --accent-foreground: 0 0% 98%;
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 0 0% 98%;
+        --border: 240 3.7% 15.9%;
+        --input: 240 3.7% 15.9%;
+        --ring: 240 4.9% 83.9%;
+      }
+      
+      html {
+        scroll-behavior: smooth;
+      }
+
+      body {
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+      }
+    </style>
+
+<link rel="stylesheet" href="/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "clsx": "https://aistudiocdn.com/clsx@^2.1.1",
+    "tailwind-merge": "https://aistudiocdn.com/tailwind-merge@^3.4.0",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24",
+    "three": "https://aistudiocdn.com/three@^0.181.2",
+    "@react-three/fiber": "https://aistudiocdn.com/@react-three/fiber@^9.4.0",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.6",
+    "@react-three/drei": "https://aistudiocdn.com/@react-three/drei@^10.7.7",
+    "@radix-ui/react-slot": "https://aistudiocdn.com/@radix-ui/react-slot@^1.2.4",
+    "class-variance-authority": "https://aistudiocdn.com/class-variance-authority@^0.7.1",
+    "@number-flow/react": "https://aistudiocdn.com/@number-flow/react@^0.5.10",
+    "@supabase/supabase-js": "https://aistudiocdn.com/@supabase/supabase-js@^2.45.1",
+    "vite": "https://aistudiocdn.com/vite@^7.2.4",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.1",
+    "path": "https://aistudiocdn.com/path@^0.12.7"
+  }
+}
+</script>
+  <script type="module" crossorigin src="/assets/index-C0xBv-dK.js"></script>
+</head>
+  <body>
+    <div id="root"></div>
+</body>
+</html>
