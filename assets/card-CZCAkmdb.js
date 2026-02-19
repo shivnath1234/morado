@@ -1,0 +1,6 @@
+import{g as o,r,j as d,c as t}from"./index-DceacOs3.js";/**
+ * @license lucide-react v0.554.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const c=[["rect",{width:"18",height:"11",x:"3",y:"11",rx:"2",ry:"2",key:"1w4ew1"}],["path",{d:"M7 11V7a5 5 0 0 1 10 0v4",key:"fwvmzm"}]],C=o("lock",c),i=r.forwardRef(({className:a,...e},s)=>d.jsx("div",{ref:s,className:t("rounded-lg border bg-card text-card-foreground shadow-sm",a),...e}));i.displayName="Card";const n=r.forwardRef(({className:a,...e},s)=>d.jsx("div",{ref:s,className:t("flex flex-col space-y-1.5 p-6",a),...e}));n.displayName="CardHeader";const l=r.forwardRef(({className:a,...e},s)=>d.jsx("h3",{ref:s,className:t("text-2xl font-semibold leading-none tracking-tight",a),...e}));l.displayName="CardTitle";const m=r.forwardRef(({className:a,...e},s)=>d.jsx("p",{ref:s,className:t("text-sm text-muted-foreground",a),...e}));m.displayName="CardDescription";const f=r.forwardRef(({className:a,...e},s)=>d.jsx("div",{ref:s,className:t("p-6 pt-0",a),...e}));f.displayName="CardContent";const p=r.forwardRef(({className:a,...e},s)=>d.jsx("div",{ref:s,className:t("flex items-center p-6 pt-0",a),...e}));p.displayName="CardFooter";export{i as C,C as L,n as a,l as b,f as c,m as d};
