@@ -1,0 +1,28 @@
+{
+  "name": "MoradoSolution - Best Minecraft Server Hosting India",
+  "short_name": "MoradoSolution",
+  "description": "India's #1 Minecraft Server Hosting Provider. Ultra-low latency, 99.9% uptime, DDoS protection. Starting ₹49/month.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#9333ea",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "https://image2url.com/r2/default/images/1769798266598-39426baa-25a4-4b39-b534-e7eae14cbcf1.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://image2url.com/r2/default/images/1769798266598-39426baa-25a4-4b39-b534-e7eae14cbcf1.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "categories": ["games", "utilities"],
+  "lang": "en-IN",
+  "dir": "ltr",
+  "scope": "/",
+  "prefer_related_applications": false
+}
