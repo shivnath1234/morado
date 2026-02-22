@@ -4,12 +4,14 @@
 User-agent: *
 Allow: /
 
-# Disallow admin and private areas
-Disallow: /admin/
-Disallow: /api/
-Disallow: /*.json$
+# Sitemaps
+Sitemap: https://moradosolution.site/sitemap.xml
 
-# Allow all crawlers
+# Disallow admin pages
+Disallow: /owner
+Disallow: /admin
+
+# Allow all bots
 User-agent: Googlebot
 Allow: /
 
@@ -28,8 +30,5 @@ Allow: /
 User-agent: YandexBot
 Allow: /
 
-# Sitemap location
-Sitemap: https://moradosolution.site/sitemap.xml
-
-# Crawl delay (optional, for rate limiting)
+# Crawl-delay
 Crawl-delay: 1
